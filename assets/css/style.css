@@ -205,9 +205,13 @@ article {
 
 article {
   display: block;
-  margin-bottom: 80px;
+  margin-bottom: 0;
   scroll-margin-top: 40px;
   scroll-snap-align: start;
+}
+
+article:last-of-type {
+  margin-bottom: 80px;
 }
 
 .h2,
@@ -321,7 +325,8 @@ main {
 }
 
 .sidebar {
-  margin-bottom: 24px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--color-border-light);
   position: relative;
   scroll-snap-align: start;
 }
