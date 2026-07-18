@@ -140,7 +140,6 @@ html {
   background-color: var(--color-bg-body);
   color: var(--color-black);
   scroll-behavior: smooth;
-  scroll-snap-type: y proximity;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -207,7 +206,6 @@ article {
   display: block;
   margin-bottom: 0;
   scroll-margin-top: 40px;
-  scroll-snap-align: start;
 }
 
 article:last-of-type {
@@ -328,7 +326,6 @@ main {
   margin-bottom: 0;
   border-bottom: 1px solid var(--color-border-light);
   position: relative;
-  scroll-snap-align: start;
 }
 
 .sidebar-info {
